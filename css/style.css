@@ -1,1 +1,111 @@
+a {
+    color: black;
+}
+
+.jumbotron {
+    height: 70vh;
+    background-image: url(/images/adult-beautiful-black-and-white-camera-302355.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.726) !important;
+    background-blend-mode: multiply;
+    color: #ffb800;
+}
+
+.dropdown-toggle {
+    background-color: #ffb800;
+    color: white;
+}
+
+ul.nav.nav-portfolio {
+    color: black !important;
+}
+
+.view-gallery{
+    border: none;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 17em;
+    left: 30em;
+}
+
+.container-fluid.promo-banner {
+    background-image: url(/images/Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.icon-color {
+    color: #ffb800;
+}
+
+ul .mr-3 a i {
+    font-size: 35px;
+}
+
+@media (max-width: 320px) {
+    ul.nav.nav-portfolio {
+        display: none !important;
+    }
+
+    .dropdown-toggle {
+        position: relative;
+        bottom: 3rem;
+        left: 15rem !important;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    ul.nav.nav-portfolio {
+        display: none !important;
+    }
+    .dropdown-toggle {
+        position: relative;
+        bottom: 3rem;
+        left: 20rem;
+    }
+}
+
+@media (max-width: 425px) {
+    ul.nav.nav-portfolio {
+        display: none !important;
+    }
+
+    .dropdown-toggle {
+        position: relative;
+        bottom: 3rem;
+        left: 18rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .dropdown-toggle {
+       display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .dropdown-toggle {
+       display: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .dropdown-toggle {
+       display: none;
+    }
+}
+
+@media (max-width: 2560px) {
+    .dropdown-toggle {
+       display: none;
+    }
+}
+
+
 
