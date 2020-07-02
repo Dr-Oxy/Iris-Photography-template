@@ -1,5 +1,5 @@
 a {
-    color: black;
+    color: rgb(231, 225, 225);
 }
 
 .jumbotron {
@@ -37,6 +37,14 @@ ul.nav.nav-portfolio {
     background-position: center center;
     background-size: cover;
     color: white;
+}
+
+.testimonial {
+    background-color: #ffb800;
+}
+
+a.nav-link {
+    color: black;
 }
 
 .icon-color {
