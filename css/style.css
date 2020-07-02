@@ -47,7 +47,7 @@ ul .mr-3 a i {
     font-size: 35px;
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     ul.nav.nav-portfolio {
         display: none !important;
     }
@@ -105,7 +105,7 @@ ul .mr-3 a i {
     .dropdown-toggle {
        display: none;
     }
-}
+} */
 
 
 
