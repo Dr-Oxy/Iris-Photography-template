@@ -1,3 +1,8 @@
+.navbar {
+    background-color: #ffb700e3;
+    color: white;
+}
+
 .jumbotron {
     background-image: url(/images/adult-beautiful-black-and-white-camera-302355.jpg);
     background-repeat: no-repeat;
@@ -5,13 +10,9 @@
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.726) !important;
     background-blend-mode: multiply;
-    color: #ffb800;
+    color: rgba(255, 255, 255, 0.774);
 }
 
-.hero-button {
-    background-color: #ffb800;
-    color: white;
-}
 
 .view-gallery{
     border: none;
@@ -28,6 +29,8 @@
     background-position: center center;
     background-size: cover;
     color: white;
+    padding: 50px 0;
+    text-align: center;
 }
 
 .testimonial {
@@ -47,7 +50,6 @@ ul .mr-3 a i {
 }
 
 .slider-area {
-    background-color: #ffb800;
     padding: 50px 0 100px;
     position: relative;
     margin: 64px 0;
