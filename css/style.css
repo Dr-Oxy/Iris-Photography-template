@@ -1,10 +1,10 @@
 .navbar {
-    background-color: #ffb700e3;
+    background-color: #0e0e0ec4;
     color: white;
 }
 
 .jumbotron {
-    background-image: url(/images/adult-beautiful-black-and-white-camera-302355.jpg);
+    background-image: url(../images/adult-beautiful-black-and-white-camera-302355.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -24,11 +24,11 @@
 }
 
 .container-fluid.promo-banner {
-    background-image: url(/images/Rectangle\ 20.png);
+    background-image: url(../images/Rectangle\ 20.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    color: white;
+    color: #5a4200be;
     padding: 50px 0;
     text-align: center;
 }
@@ -50,14 +50,14 @@ ul .mr-3 a i {
 }
 
 .slider-area {
-    padding: 50px 0 100px;
+    padding: 50px 0;
     position: relative;
-    margin: 64px 0;
+    margin-top: 64px;
 }
 
 .img-area {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin: auto;
     overflow: hidden;
@@ -65,13 +65,12 @@ ul .mr-3 a i {
 
 .img-area img {
     width: 100%;
-    position: relative;
-    bottom: 50px;
 }
 
 .carousel-caption {
-    position: relative;
-    top: 8em;
+    position: static !important;
+    padding-bottom: 15px;
+    padding-top: 0;
 }
 
 .contact {
